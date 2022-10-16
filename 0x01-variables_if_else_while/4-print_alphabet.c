@@ -8,6 +8,7 @@
 int main(void)
 {
 	int gy;
+
 	for (gy = 97; gy < 123; gy++)
 	{
 		if(gy != 101 && gy != 71)
@@ -18,6 +19,6 @@ int main(void)
 		{
 		}
 	}
-	putchar(\n);
+	putchar('\n');
 	return (0);
 }

@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main-entry point
- * description: checks on the last digit of the assigned var
+ * main - Entry point
+ * Description: prints the last digit of the assigned variable
  * return: 0 (success)
  */
 int main(void)
 {
 	int n, k,
 
-	srand(time(0));
+	srand(.time(0));
 	n = rand() - RAND_MAX / 2;
 	k = n % 10;
 	if (k > 5)
