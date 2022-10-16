@@ -9,7 +9,7 @@ int main(void)
 {
 	int gy;
 
-	for (gy = 97; gy < 123; gy++)
+	for (gy = 97; gy <= 122; gy++)
 	{
 		putchar(gy);
 	}
