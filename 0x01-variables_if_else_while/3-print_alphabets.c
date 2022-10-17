@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(gy);
 	}
-	for (gy = 65; gy < 91; gy++)
+	for (gy = 65; gy <= 90; gy++)
 	{
 		putchar(gy);
 	}
