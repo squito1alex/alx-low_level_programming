@@ -9,11 +9,11 @@ int main(void)
 {
 	int gy;
 
-	for (gy = 97; gy < 123; gy++)
+	for (gy = 'a'; gy < 'z'; gy++)
 	{
 		putchar(gy);
 	}
-	for (gy = 65; gy <= 90; gy++)
+	for (gy = 'A'; gy <= 'Z'; gy++)
 	{
 		putchar(gy);
 	}
