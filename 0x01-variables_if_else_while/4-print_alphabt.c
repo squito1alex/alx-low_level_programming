@@ -11,7 +11,7 @@ int main(void)
 
 	for (gy = 97; gy < 123; gy++)
 	{
-		if(gy != 101 && gy != 71)
+		if (gy != 101 && gy != 113)
 		{
 			putchar(gy);
 		}
