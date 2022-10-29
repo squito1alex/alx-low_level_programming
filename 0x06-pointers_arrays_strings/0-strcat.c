@@ -5,11 +5,11 @@
  *
  * @dest: destination.
  * @src: source.
- * Return the pointer to dest.
+ * Return: the pointer to dest.
  *
  */
 
-char *_strcat(char *dest, char *str)
+char *_strcat(char *dest, const char *str)
 {
 	int count = 0, count2 = 0;
 
@@ -21,7 +21,7 @@ char *_strcat(char *dest, char *str)
 	while (count2 >= 0)
 	{
 		*(dest + count) = *(src + count2);
-		if(*( src + count2) == '\0')
+		if (*(src + count2) == '\0')
 			break;
 		count++;
 		count2++;
